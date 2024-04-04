@@ -1,0 +1,99 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+}
+h1{
+   color: aqua;  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.form
+{
+    /* background-color: white;
+    padding: 20px;
+    border-radius: 5px; */
+      width: 400px;
+      /* margin: 20vh auto 0 auto; */
+      margin-top: 20px;
+      background-color: whitesmoke;
+      padding: 30px; 
+      border-radius: 3px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(171, 29, 171, 0.948);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form label
+{
+    font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 70;
+}
+.form input{
+    /* background-color: whitesmoke;
+    color:blue;
+    border:none;
+    width:100%;
+    padding:12px 0;
+    border-radius:4px;
+    margin-top:10px;
+    font-size:14px; */
+    border-radius: 5px;
+      font-size: 15px;
+      margin-top: 7px;
+      padding: 10px;
+      border: 1px solid rgb(34,193,195);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.form input:focus{
+    outline: 0;
+}
+button
+{
+    width: 80%;
+      margin-left: 35px;
+      height: 40px;
+      margin-top: 10px;
+      font-size: 15px;
+      border-radius: 20px;
+      background-color: blueviolet;
+      color: white;
+      border: 1px solid blueviolet;
+      cursor: pointer;
+    
+}
+button:hover{
+    background-color: teal;
+    border-color: aqua;
+    color: white;
+}
+table,tr,th,td{
+    
+    margin-top: 0px;
+    border:2px solid teal;
+    border-collapse:collapse;
+    padding:10px 20px;
+    color: black;
+    width: 465px;
+    text-align: center;
+    background-color: aliceblue;
+
+} 
